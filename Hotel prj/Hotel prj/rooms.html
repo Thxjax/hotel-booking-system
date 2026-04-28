@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms & Suites | Aura Grande</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">AURA GRANDE</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="rooms.html">Rooms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="py-5 text-center bg-navy text-light" style="background-color: var(--primary-navy);">
+        <div class="container py-5">
+            <h1 class="display-3">Rooms & Suites</h1>
+            <p class="lead">Unmatched comfort, tailored to your needs.</p>
+        </div>
+    </section>
+
+    <!-- Rooms Listing -->
+    <div class="container py-5">
+        <div class="row g-5">
+            <!-- Deluxe Room -->
+            <div class="col-md-6">
+                <div class="card room-card h-100">
+                    <img src="room-deluxe.png" class="card-img-top" alt="Deluxe Room">
+                    <div class="card-body p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h2 class="h3 mb-0">Deluxe City Room</h2>
+                            <span class="text-gold h4 mb-0">$350<small class="text-muted" style="font-size: 0.8rem;">/night</small></span>
+                        </div>
+                        <p class="text-muted">Featuring modern decor, high-speed WiFi, and a stunning view of the skyline. Perfect for business and leisure.</p>
+                        <ul class="list-inline text-muted mb-4">
+                            <li class="list-inline-item me-3"><i class="bi bi-person"></i> 2 Adults</li>
+                            <li class="list-inline-item me-3"><i class="bi bi-aspect-ratio"></i> 45 sqm</li>
+                            <li class="list-inline-item"><i class="bi bi-wifi"></i> Free WiFi</li>
+                        </ul>
+                        <a href="booking.html?room=Deluxe" class="btn btn-outline-dark w-100">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Presidential Suite -->
+            <div class="col-md-6">
+                <div class="card room-card h-100">
+                    <img src="room-presidential.png" class="card-img-top" alt="Presidential Suite">
+                    <div class="card-body p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h2 class="h3 mb-0">Presidential Suite</h2>
+                            <span class="text-gold h4 mb-0">$850<small class="text-muted" style="font-size: 0.8rem;">/night</small></span>
+                        </div>
+                        <p class="text-muted">The pinnacle of luxury with a private balcony, separate living area, and 24/7 butler service.</p>
+                        <ul class="list-inline text-muted mb-4">
+                            <li class="list-inline-item me-3"><i class="bi bi-person"></i> 4 Adults</li>
+                            <li class="list-inline-item me-3"><i class="bi bi-aspect-ratio"></i> 120 sqm</li>
+                            <li class="list-inline-item"><i class="bi bi-cup-hot"></i> Breakfast Included</li>
+                        </ul>
+                        <a href="booking.html?room=Presidential" class="btn btn-outline-dark w-100">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container text-center">
+            <div class="footer-logo">AURA GRANDE</div>
+            <p class="text-muted">&copy; 2026 Aura Grande Hotels. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
