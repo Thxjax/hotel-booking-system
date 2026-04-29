@@ -1,21 +1,21 @@
-# 🏨 Hotel Booking System
+#  Hotel Booking System
 
 A simple and clean hotel booking website built using HTML, CSS, and JavaScript.  
 This project demonstrates a front-end interface for browsing hotels, viewing details, and making bookings.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🛏️ Hotel listing and room details
-- 📅 Booking interface (check-in / check-out)
-- 📖 About page with hotel information
-- 📞 Contact section
-- 💻 Responsive UI design
+-  Hotel listing and room details
+-  Booking interface (check-in / check-out)
+-  About page with hotel information
+-  Contact section
+-  Responsive UI design
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - HTML5
 - CSS3
@@ -23,4 +23,4 @@ This project demonstrates a front-end interface for browsing hotels, viewing det
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
