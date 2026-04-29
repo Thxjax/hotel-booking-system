@@ -1,2 +1,26 @@
-# hotel-booking-system
-Project Description  The Hotel Management System is a web-based application designed to simplify and automate the operations of a hotel. It provides an intuitive interface for customers to explore rooms, make bookings, and contact the hotel, while also offering an admin panel to manage reservations efficiently.  
+# 🏨 Hotel Booking System
+
+A simple and clean hotel booking website built using HTML, CSS, and JavaScript.  
+This project demonstrates a front-end interface for browsing hotels, viewing details, and making bookings.
+
+---
+
+## ✨ Features
+
+- 🛏️ Hotel listing and room details
+- 📅 Booking interface (check-in / check-out)
+- 📖 About page with hotel information
+- 📞 Contact section
+- 💻 Responsive UI design
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## 📂 Project Structure
